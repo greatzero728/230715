@@ -1,0 +1,9 @@
+Given an N × M integer grid, and each element is 1, 2,..., N ×  M, (1 ≤ N, M ≤ 500)
+You have a rectangle table whose location is integer 1.
+Each time, you have to perform one of the following four operations:
+1. 'U' : move the upper bound of the table one unit up.
+2. 'D' : move the lower bound of the table one unit down.
+3. 'L' : move the left bound of the table one unit left.
+4. 'R' : move the right bound of the table one unit right.
+Each time you do the operation, the new addition numbers are the smallest possible numbers.
+Print the operation as one string. (It is guaranteed that there is one valid solution.)

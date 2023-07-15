@@ -1,0 +1,7 @@
+You can solve the monogram puzzle by using the technique of filling black and white squares based on the provided sequences of numbers for each row and column.
+Start by reading the input, which includes the grid size and the sequences of numbers for each row and column. Then proceed with an iterative process to fill the grid.
+Check if a given configuration of black and white squares is valid for a specific row or column. Use a dynamic programming approach to determine if the configuration satisfies the constraints based on the provided sequence of numbers.
+The check function checks all possible configurations for a row or column with unknown squares (represented by 0) and determines the valid configuration by testing each possibility using the test function.
+The main part of the code iterates through the rows and columns, calling the check function to find valid configurations and updating the grid accordingly. This process continues until no further changes can be made.
+Finally, the print function is called to output the final grid configuration with filled black and white squares.
+By repeatedly applying the check function and updating the grid, we gradually solve the monogram puzzle and output the final configuration of the grid.

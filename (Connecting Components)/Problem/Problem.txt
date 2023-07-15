@@ -1,0 +1,4 @@
+There is an undirected graph with n nodes and n-1 edges. (1 ≤ n ≤ 10^5) This graph doesn't contain loops or multiple edges.
+You are allowed to change one endpoint of an edge in one move, and the cost of this move is the absolute difference between the new ID and the old ID of the changed endpoint.
+Find the minimum total cost needed to make the given graph connect in at most two moves, or determine that it is impossible.
+Note that you do not have to minimize the number of moves.

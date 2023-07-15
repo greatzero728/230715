@@ -1,0 +1,7 @@
+Given arrays a_1, a_2, ..., a_n and q queries. (1 ≤ n, q ≤ 300000, 1 ≤ a_i ≤ 10^6).
+Each query is in the following form:
+1 l r h (a_i = min(a_i, h), l ≤ i ≤ r)
+2 l r (delete [l, r] and insert it at the right end)
+3 l r x (a_i = a_i + x, l ≤ i ≤ r)
+(1 ≤ l ≤ r ≤ n, 1 ≤ h ≤ 10^9, 1 ≤ x ≤ 10^5)
+After each query, print a single line describing the sum of b_i.

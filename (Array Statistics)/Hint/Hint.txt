@@ -1,0 +1,4 @@
+To calculate the mean, you only need to calculate the sum of n elements and divide by n.
+To calculate the median, you can sort the given array and find the median.
+To calculate mode, you have to count the number of each element, and you can implement this with map<int, int> structure.
+And the range is the subtraction of the largest number and the smallest number.

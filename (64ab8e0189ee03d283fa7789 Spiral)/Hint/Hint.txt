@@ -1,0 +1,5 @@
+You can solve this problem with a recursive algorithm.
+You have to check the special cases, such as n ≤ 4 or m ≤ 4.
+Otherwise, you can reduce the numbers n and m by 4 in recursive.
+But this is so much slower because the range limit of n and m is 10^9.
+Seeing the recursive function, you can check that the answer increases by an arithmetically decreasing amount.

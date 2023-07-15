@@ -1,0 +1,9 @@
+Given two numbers, n and m, you have to paint the n × m grid as a spiral that twists towards the center. (1 ≤ n, m ≤ 10^9)
+You have to start painting in the upper-left corner and just start painting in the down direction.
+How many cells do you have to paint for this task?
+For example, if n = 5 and m = 6, then you have to paint 20 cells.
+P#PPPP
+P#P##P
+P#PP#P
+P####P
+PPPPPP
